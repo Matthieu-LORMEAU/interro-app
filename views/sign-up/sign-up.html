@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="sign-up.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Fill the form to create a new account.</h2>
+      <form class="sign-up" action="./../../controllers/register-sign-up.php" method="post">
+        <label for="username">Login :</label>
+        <input type="text" name="username" placeholder="enter username">
+        <div class="create-password-container">
+          <label for="new-password">Password :</label>
+          <input type="text" name="new-password" placeholder="enter password">
+          <label for="confirm-password">Repeat password :</label>
+          <input type="text" name="confirm-password" placeholder="confirm password">
+        </div>
+        <button type="submit" name="submit-registration">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
