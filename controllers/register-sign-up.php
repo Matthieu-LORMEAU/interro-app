@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
     echo("Successfully registered");
     echo("<br /><button><a href='./../views/sign-up/sign-up.html'>Go back to signup</a></button>
-          <br /><button><a href='./../views/flights-search/flights-search.html'>Go to flights search</a></button>");
+          <br /><button><a href='./../views/flights-search/flights-search.php'>Go to flights search</a></button>");
   }
 }
 
