@@ -22,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if(isset($usernameErr) || isset($passwordErr)){
     if(isset($usernameErr)){
-      echo($usernameErr);
+      echo($usernameErr."<br />");
     }
     if(isset($passwordErr)){
-      echo($passwordErr);
+      echo($passwordErr."<br />");
     }
     echo("<br /><button><a href='./../views/sign-up/sign-up.html'>Go back to signup</a></button>");
   }
